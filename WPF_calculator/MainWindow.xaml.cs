@@ -196,5 +196,10 @@ namespace WPF_calculator
             oper_arr = new string[100];//연산자의 문자열
             is_calc = false;
         }
+
+        private void textBox2_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }

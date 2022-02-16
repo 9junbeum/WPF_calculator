@@ -6,12 +6,12 @@
         xmlns:local="clr-namespace:WPF_calculator"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="300">
-    <Grid>
+    <Grid Margin="0,0,0,1" HorizontalAlignment="Left" Width="300">
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="25" Margin="10,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="255" IsReadOnly="True" FlowDirection="RightToLeft"/>
-        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="50" Margin="10,40,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="255" IsReadOnly="True" FlowDirection="RightToLeft"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="25" Margin="10,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="255" IsReadOnly="True" TextAlignment="Right" FontSize="14"/>
+        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="50" Margin="10,40,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="255" IsReadOnly="True" TextAlignment="Right" FontSize="24"/>
         <Button x:Name="button1" Content="지우기" HorizontalAlignment="Left" Margin="10,95,0,0" VerticalAlignment="Top" Height="60" Width="60" Click="erase_Btn_Click"/>
         <Button x:Name="button2" Content="초기화" HorizontalAlignment="Left" Margin="75,95,0,0" VerticalAlignment="Top" Height="60" Width="60" Click="clear_Btn_Click"/>
         <Button x:Name="button3" Content="/" HorizontalAlignment="Left" Margin="140,95,0,0" VerticalAlignment="Top" Height="60" Width="60" Click="oper_Btn_Click"/>
