@@ -14,4 +14,5 @@ namespace WPF_calculator
     public partial class App : Application
     {
     }
+
 }
